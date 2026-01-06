@@ -2,7 +2,7 @@
   "Produk": [
     {
       "nama": "SOMAY",
-      "harta" : "Rp.10.000",
+      "harga" : "Rp.10.000",
       "deskripsi":"Daging ikan/udang/ayam cincang dibungkus kulit pangsit, dikukus, disajikan dengan saus kacang/pedas.",
       "gambar": "img/2.png",
       "linkshopee" :"https://shopee.co.id/CEMILAN-KERIPIK-SINGKONG-KASVHAAA-KEMASAN-250gr-i.215201118.27034492615"
@@ -27,5 +27,6 @@
     }
       ]
 }
+
 
 
