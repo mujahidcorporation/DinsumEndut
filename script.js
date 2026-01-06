@@ -24,6 +24,7 @@ fetch("data.json")
         <img src="${item.gambar}" alt="${item.nama}">
         <div class="Produk-content">
           <h3>${item.nama}</h3>
+          <h3>${item.harga}</h3>
           <p>${item.deskripsi}</p>
           <a class="wa-button" href="https://wa.me/${nomorWhatsApp}?text=${pesan}" target="_blank" rel="noopener noreferrer">Pesan via WhatsApp</a>
           <a class="Shopee-button" href="${item.linkshopee}" target="_blank" rel="noopener noreferrer" class="Shopee-button">Pesan Via Shopee</a>
@@ -33,4 +34,5 @@ fetch("data.json")
       ProdukList.appendChild(ProdukDiv);
     });
   })
+
   .catch(error => console.error("Gagal memuat data:", error));
